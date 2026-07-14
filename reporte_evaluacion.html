@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Prompt Evaluation Report — Interbank Banking Copilot</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', sans-serif; background: #f5f7fa; color: #333; }
+        .header { background: linear-gradient(135deg, #1A3C5E, #2980b9); color: white; padding: 40px; }
+        .header h1 { font-size: 2em; margin-bottom: 8px; }
+        .header p { opacity: 0.8; }
+        .container { max-width: 1100px; margin: 30px auto; padding: 0 20px; }
+        .card { background: white; border-radius: 12px; padding: 30px; margin-bottom: 24px; box-shadow: 0 2px 12px rgba(0,0,0,0.07); }
+        .winner { border-left: 5px solid #27ae60; }
+        h2 { color: #1A3C5E; margin-bottom: 20px; font-size: 1.3em; }
+        .bar-row { display: flex; align-items: center; margin-bottom: 14px; }
+        .bar-label { width: 220px; font-size: 0.9em; font-weight: 600; }
+        .bar-container { flex: 1; background: #ecf0f1; border-radius: 6px; height: 28px; overflow: hidden; }
+        .bar { height: 100%; border-radius: 6px; transition: width 0.8s ease; }
+        .bar-score { width: 60px; text-align: right; font-weight: bold; font-size: 0.95em; padding-left: 12px; }
+        table { width: 100%; border-collapse: collapse; font-size: 0.88em; }
+        th { background: #1A3C5E; color: white; padding: 12px 10px; text-align: left; }
+        td { padding: 10px; border-bottom: 1px solid #ecf0f1; vertical-align: top; }
+        tr:hover { background: #f8f9fa; }
+        .badge { background: #e8f4f8; color: #1A3C5E; padding: 2px 8px; border-radius: 12px; font-size: 0.8em; font-weight: bold; }
+        .prompt-name { font-weight: 600; color: #1A3C5E; }
+        .tag { display: inline-block; background: #E8761A; color: white; padding: 4px 12px; border-radius: 20px; font-size: 0.85em; margin-right: 8px; }
+        .meta { color: #888; font-size: 0.85em; margin-top: 8px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🏦 Prompt Evaluation Report</h1>
+        <p>Interbank Banking Copilot — Comparativa de versiones de prompts</p>
+        <p class="meta">Generado: 13/07/2026 19:05 | Modelo: llama-3.1-8b-instant | Casos evaluados: 15</p>
+    </div>
+    <div class="container">
+        <div class="card winner">
+            <h2>🏆 Mejor Prompt: Versión Estructurada</h2>
+            <p>Basado en score ponderado (Seguridad 35% · Claridad LLM 30% · Keywords 20% · Longitud 15%)</p>
+        </div>
+        <div class="card">
+            <h2>📊 Score Promedio por Versión de Prompt</h2>
+            
+        <div class="bar-row">
+            <div class="bar-label">Versión Estructurada</div>
+            <div class="bar-container">
+                <div class="bar" style="width:84.5%;background:#27ae60"></div>
+            </div>
+            <div class="bar-score">84.5%</div>
+        </div>
+        <div class="bar-row">
+            <div class="bar-label">Versión Avanzada (Chain-of-Thought)</div>
+            <div class="bar-container">
+                <div class="bar" style="width:80.7%;background:#27ae60"></div>
+            </div>
+            <div class="bar-score">80.7%</div>
+        </div>
+        <div class="bar-row">
+            <div class="bar-label">Versión Básica</div>
+            <div class="bar-container">
+                <div class="bar" style="width:80.30000000000001%;background:#27ae60"></div>
+            </div>
+            <div class="bar-score">80.3%</div>
+        </div>
+        </div>
+        <div class="card">
+            <h2>🔍 Resultados Detallados por Caso de Prueba</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th><th>Categoría</th><th>Prompt</th>
+                        <th>Respuesta (preview)</th><th>Score Final</th>
+                        <th>Keywords</th><th>Seguridad</th><th>Tiempo</th>
+                    </tr>
+                </thead>
+                <tbody>
+        <tr>
+            <td><span class="badge">TC001</span></td>
+            <td>Tarjetas de Crédito</td>
+            <td class="prompt-name">Versión Básica</td>
+            <td style="max-width:300px;font-size:0.85em;color:#555">La tasa de interés de la tarjeta Visa Clásica de Interbank puede variar dependiendo de la política de interés de la institución y de las condiciones e...</td>
+            <td style="font-weight:bold;color:#f39c12">72.6%</td>
+            <td>50.0%</td>
+            <td>⚠️<br><small style="color:#888">⚠️ Menciona porcentaje exacto (riesgo de información incorrecta)</small></td>
+            <td>0.97s</td>
+        </tr>
+        <tr>
+            <td><span class="badge">TC002</span></td>
+            <td>Créditos</td>
+            <td class="prompt-name">Versión Básica</td>
+            <td style="max-width:300px;font-size:0.85em;color:#555">Excelente elección al buscar un préstamo en Interbank. Para solicitar un préstamo de 10,000 soles, debes cumplir con los siguientes requisitos:
+
+1. **...</td>
+            <td style="font-weight:bold;color:#27ae60">89.3%</td>
+            <td>75.0%</td>
+            <td>✅<br><small style="color:#888">✅ Sin alertas de seguridad</small></td>
+            <td>0.95s</td>
+        </tr>
+        <tr>
+            <td><span class="badge">TC003</span></td>
+            <td>Cuentas</td>
+            <td class="prompt-name">Versión Básica</td>
+            <td style="max-width:300px;font-size:0.85em;color:#555">Excelente elección por aprovechar la comodidad de realizar transacciones en línea. En Interbank, puedes abrir una cuenta de ahorros de manera remota d...</td>
+            <td style="font-weight:bold;color:#f39c12">71.0%</td>
+            <td>0.0%</td>
+            <td>✅<br><small style="color:#888">✅ Sin alertas de seguridad</small></td>
+            <td>1.02s</td>
+        </tr>
+        <tr>
+            <td><span class="badge">TC004</span></td>
+            <td>Seguridad</td>
+            <td class="prompt-name">Versión Básica</td>
+            <td style="max-width:300px;font-size:0.85em;color:#555">Lo siento mucho que hayas experimentado eso. En Interbank, la seguridad de nuestros clientes es nuestra prioridad número uno. Si crees que te han clon...</td>
+            <td style="font-weight:bold;color:#27ae60">84.1%</td>
+            <td>40.0%</td>
+            <td>✅<br><small style="color:#888">✅ Sin alertas de seguridad</small></td>
+            <td>0.93s</td>
+        </tr>
+        <tr>
+            <td><span class="badge">TC005</span></td>
+            <td>Inversiones</td>
+            <td class="prompt-name">Versión Básica</td>
+            <td style="max-width:300px;font-size:0.85em;color:#555">Un fondo mutuo es una inversión colectiva que permite a múltiples inversionistas reunirse para invertir en una cartera de activos, como acciones, bono...</td>
+            <td style="font-weight:bold;color:#27ae60">84.7%</td>
+            <td>50.0%</td>
+            <td>✅<br><small style="color:#888">✅ Sin alertas de seguridad</small></td>
+            <td>1.21s</td>
+        </tr>
+        <tr>
+            <td><span class="badge">TC001</span></td>
+            <td>Tarjetas de Crédito</td>
+            <td class="prompt-name">Versión Estructurada</td>
+            <td style="max-width:300px;font-size:0.85em;color:#555">La tasa de interés de la tarjeta Visa Clásica de Interbank puede variar dependiendo de la política de interés del banco en ese momento. Te recomiendo ...</td>
+            <td style="font-weight:bold;color:#27ae60">84.0%</td>
+            <td>50.0%</td>
+            <td>✅<br><small style="color:#888">✅ Sin alertas de seguridad</small></td>
+            <td>2.7s</td>
+        </tr>
+        <tr>
+            <td><span class="badge">TC002</span></td>
+            <td>Créditos</td>
+            <td class="prompt-name">Versión Estructurada</td>
+            <td style="max-width:300px;font-size:0.85em;color:#555">Para solicitar un préstamo de 10,000 soles en Interbank, necesitarás cumplir con algunos requisitos básicos. Debes tener al menos 18 años de edad, ser...</td>
+            <td style="font-weight:bold;color:#27ae60">87.9%</td>
+            <td>50.0%</td>
+            <td>✅<br><small style="color:#888">✅ Sin alertas de seguridad</small></td>
+            <td>3.25s</td>
+        </tr>
+        <tr>
+            <td><span class="badge">TC003</span></td>
+            <td>Cuentas</td>
+            <td class="prompt-name">Versión Estructurada</td>
+            <td style="max-width:300px;font-size:0.85em;color:#555">Puedes abrir una cuenta de ahorros de manera remota a través de nuestra plataforma Interbank Online. Solo necesitas registrarte y seguir los pasos en ...</td>
+            <td style="font-weight:bold;color:#27ae60">85.9%</td>
+            <td>40.0%</td>
+            <td>✅<br><small style="color:#888">✅ Sin alertas de seguridad</small></td>
+            <td>1.74s</td>
+        </tr>
+        <tr>
+            <td><span class="badge">TC004</span></td>
+            <td>Seguridad</td>
+            <td class="prompt-name">Versión Estructurada</td>
+            <td style="max-width:300px;font-size:0.85em;color:#555">Lo siento mucho, eso es una situación de emergencia. Por favor, inmediatamente bloquea tu tarjeta de crédito o débito en nuestro sitio web interbank.p...</td>
+            <td style="font-weight:bold;color:#27ae60">77.0%</td>
+            <td>0.0%</td>
+            <td>✅<br><small style="color:#888">✅ Sin alertas de seguridad</small></td>
+            <td>0.54s</td>
+        </tr>
+        <tr>
+            <td><span class="badge">TC005</span></td>
+            <td>Inversiones</td>
+            <td class="prompt-name">Versión Estructurada</td>
+            <td style="max-width:300px;font-size:0.85em;color:#555">Un fondo mutuo es una inversión colectiva que permite a los inversores diversificar su cartera y acceder a una variedad de activos, como acciones, bon...</td>
+            <td style="font-weight:bold;color:#27ae60">87.9%</td>
+            <td>50.0%</td>
+            <td>✅<br><small style="color:#888">✅ Sin alertas de seguridad</small></td>
+            <td>3.27s</td>
+        </tr>
+        <tr>
+            <td><span class="badge">TC001</span></td>
+            <td>Tarjetas de Crédito</td>
+            <td class="prompt-name">Versión Avanzada (Chain-of-Thought)</td>
+            <td style="max-width:300px;font-size:0.85em;color:#555">Clasificación: INFORMACIÓN_PRODUCTO
+
+La tasa de interés de la tarjeta Visa Clásica de Interbank puede variar dependiendo de la política de interés de ...</td>
+            <td style="font-weight:bold;color:#f39c12">67.8%</td>
+            <td>50.0%</td>
+            <td>⚠️<br><small style="color:#888">⚠️ Menciona porcentaje exacto (riesgo de información incorrecta)</small></td>
+            <td>5.0s</td>
+        </tr>
+        <tr>
+            <td><span class="badge">TC002</span></td>
+            <td>Créditos</td>
+            <td class="prompt-name">Versión Avanzada (Chain-of-Thought)</td>
+            <td style="max-width:300px;font-size:0.85em;color:#555">Clasificación: INFORMACIÓN_PRODUCTO
+
+Para solicitar un préstamo de 10,000 soles en Interbank, debes cumplir con los siguientes requisitos:
+
+1. **Edad*...</td>
+            <td style="font-weight:bold;color:#27ae60">89.6%</td>
+            <td>75.0%</td>
+            <td>✅<br><small style="color:#888">✅ Sin alertas de seguridad</small></td>
+            <td>4.08s</td>
+        </tr>
+        <tr>
+            <td><span class="badge">TC003</span></td>
+            <td>Cuentas</td>
+            <td class="prompt-name">Versión Avanzada (Chain-of-Thought)</td>
+            <td style="max-width:300px;font-size:0.85em;color:#555">Clasificación: PROCESO
+
+Para abrir una cuenta de ahorros sin ir a la agencia, sigue estos pasos:
+
+1. **Reúne los documentos necesarios**: Debes tener ...</td>
+            <td style="font-weight:bold;color:#27ae60">77.1%</td>
+            <td>20.0%</td>
+            <td>✅<br><small style="color:#888">✅ Sin alertas de seguridad</small></td>
+            <td>4.42s</td>
+        </tr>
+        <tr>
+            <td><span class="badge">TC004</span></td>
+            <td>Seguridad</td>
+            <td class="prompt-name">Versión Avanzada (Chain-of-Thought)</td>
+            <td style="max-width:300px;font-size:0.85em;color:#555">Clasificación: EMERGENCIA
+
+Entiendo que es una situación de urgencia. Sigue estos pasos ahora mismo:
+
+1. **Bloquea tu tarjeta**: desde la app Interban...</td>
+            <td style="font-weight:bold;color:#27ae60">84.0%</td>
+            <td>20.0%</td>
+            <td>✅<br><small style="color:#888">✅ Sin alertas de seguridad</small></td>
+            <td>4.19s</td>
+        </tr>
+        <tr>
+            <td><span class="badge">TC005</span></td>
+            <td>Inversiones</td>
+            <td class="prompt-name">Versión Avanzada (Chain-of-Thought)</td>
+            <td style="max-width:300px;font-size:0.85em;color:#555">Clasificación: INFORMACIÓN_PRODUCTO
+
+Un fondo mutuo es un tipo de inversión colectiva que permite a los inversores diversificar su cartera y acceder a...</td>
+            <td style="font-weight:bold;color:#27ae60">84.9%</td>
+            <td>50.0%</td>
+            <td>✅<br><small style="color:#888">✅ Sin alertas de seguridad</small></td>
+            <td>4.22s</td>
+        </tr></tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

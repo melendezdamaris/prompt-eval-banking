@@ -1,0 +1,651 @@
+[
+  {
+    "prompt_id": "v1_basico",
+    "prompt_nombre": "Versión Básica",
+    "caso_id": "TC001",
+    "categoria": "Tarjetas de Crédito",
+    "pregunta": "¿Cuál es la tasa de interés de la tarjeta Visa Clásica de Interbank?",
+    "respuesta": "La tasa de interés de la tarjeta Visa Clásica de Interbank puede variar dependiendo de la política de interés de la institución y de las condiciones específicas de la tarjeta. Sin embargo, puedo proporcionarte la información actualizada sobre la tasa de interés para la tarjeta Visa Clásica de Interbank.\n\nActualmente, la tasa de interés anual para la tarjeta Visa Clásica de Interbank es del 24,99% sobre el saldo principal, y el interés diario es del 0,068%. Es importante tener en cuenta que esta información puede variar y es posible que haya condiciones especiales o promociones que puedan afectar la tasa de interés.\n\nSi deseas obtener la información más actualizada o tener más detalles sobre la tarjeta, te recomiendo que revises el contrato de la tarjeta o que contactes directamente con nuestro departamento de atención al cliente para obtener la información más reciente. ¿Hay algo más en lo que pueda ayudarte?",
+    "tiempo_segundos": 0.97,
+    "tokens_usados": 291,
+    "metricas": {
+      "keywords": {
+        "score": 0.5,
+        "keywords_encontradas": [
+          "tasa",
+          "interés"
+        ],
+        "keywords_faltantes": [
+          "TEA",
+          "porcentaje"
+        ]
+      },
+      "longitud": {
+        "score": 0.8,
+        "palabras": 150,
+        "evaluacion": "Muy larga (150 palabras, máximo 120)"
+      },
+      "seguridad": {
+        "score": 0.7,
+        "es_segura": false,
+        "alertas": [
+          "⚠️ Menciona porcentaje exacto (riesgo de información incorrecta)"
+        ]
+      },
+      "claridad_llm": {
+        "score": 0.87,
+        "claridad": 4,
+        "utilidad": 4,
+        "profesionalismo": 5,
+        "comentario": "La respuesta proporciona información detallada, pero podría ser más clara en su presentación."
+      }
+    },
+    "score_final": 0.726
+  },
+  {
+    "prompt_id": "v1_basico",
+    "prompt_nombre": "Versión Básica",
+    "caso_id": "TC002",
+    "categoria": "Créditos",
+    "pregunta": "Necesito un préstamo de 10,000 soles. ¿Cuáles son los requisitos?",
+    "respuesta": "Excelente elección al buscar un préstamo en Interbank. Para solicitar un préstamo de 10,000 soles, debes cumplir con los siguientes requisitos:\n\n1. **Edad mínima**: Debes tener al menos 18 años de edad.\n2. **Documento de identidad**: Debes tener un documento de identidad válido, como la cédula de identidad o la tarjeta de identidad.\n3. **Antecedentes crediticios**: Debes tener un buen historial crediticio, es decir, no tener deudas impagas con Interbank o con otras instituciones financieras.\n4. **Ingresos**: Debes tener un ingreso mínimo mensual de 1,500 soles (antes de impuestos).\n5. **Seguridad financiera**: Debes demostrar que tienes una seguridad financiera, como un patrimonio o una cuenta corriente con saldo positivo.\n6. **Domicilio**: Debes tener un domicilio fijo en Perú y una dirección de correo electrónico y teléfono válido.\n7. **Cuenta en Interbank**: Debes tener una cuenta en Interbank, ya sea una cuenta de ahorro o una cuenta corriente.\n\nAdemás, es importante que conozcas las condiciones del préstamo, como:\n\n- Tasa de interés: 12% anual, variable\n- Plazo máximo: 60 meses\n-",
+    "tiempo_segundos": 0.95,
+    "tokens_usados": 377,
+    "metricas": {
+      "keywords": {
+        "score": 0.75,
+        "keywords_encontradas": [
+          "ingresos",
+          "historial",
+          "crediticio"
+        ],
+        "keywords_faltantes": [
+          "DNI"
+        ]
+      },
+      "longitud": {
+        "score": 0.76,
+        "palabras": 170,
+        "evaluacion": "Muy larga (170 palabras, máximo 130)"
+      },
+      "seguridad": {
+        "score": 1.0,
+        "es_segura": true,
+        "alertas": [
+          "✅ Sin alertas de seguridad"
+        ]
+      },
+      "claridad_llm": {
+        "score": 0.93,
+        "claridad": 4,
+        "utilidad": 5,
+        "profesionalismo": 5,
+        "comentario": "La respuesta es clara y concisa, pero podría incluir más detalles sobre el proceso de solicitud y las condiciones del préstamo."
+      }
+    },
+    "score_final": 0.893
+  },
+  {
+    "prompt_id": "v1_basico",
+    "prompt_nombre": "Versión Básica",
+    "caso_id": "TC003",
+    "categoria": "Cuentas",
+    "pregunta": "¿Cómo abro una cuenta de ahorros sin ir a la agencia?",
+    "respuesta": "Excelente elección por aprovechar la comodidad de realizar transacciones en línea. En Interbank, puedes abrir una cuenta de ahorros de manera remota de la siguiente manera:\n\n1. **Accede a Internet Banking**: Ingresa a la plataforma de Internet Banking de Interbank en nuestro sitio web oficial.\n2. **Inicia sesión**: Introduce tus credenciales de usuario y contraseña para acceder a tu cuenta.\n3. **Sigue las instrucciones**: Selecciona la opción \"Abrir cuenta\" en la sección de \"Servicios\" y sigue las instrucciones para completar el proceso de apertura de cuenta.\n4. **Verifica tus datos**: Revisa tus datos personales y financieros para asegurarte de que sean correctos.\n5. **Sigue las indicaciones**: Selecciona la opción de cuenta de ahorros que deseas abrir y sigue las indicaciones para finalizar el proceso.\n\nTambién puedes considerar la opción de utilizar la aplicación móvil de Interbank, que te permite abrir una cuenta de ahorros de manera rápida y sencilla.\n\nRecuerda que, como es un proceso de apertura de cuenta, podrías necesitar proporcionar algunos documentos adicionales. Si tienes alguna duda o necesitas ayuda, no dudes en contactar con nuestro servicio de atención al cliente.\n\n¿Necesitas ayuda adicional?",
+    "tiempo_segundos": 1.02,
+    "tokens_usados": 362,
+    "metricas": {
+      "keywords": {
+        "score": 0.0,
+        "keywords_encontradas": [],
+        "keywords_faltantes": [
+          "app",
+          "digital",
+          "online",
+          "interbank.pe",
+          "virtual"
+        ]
+      },
+      "longitud": {
+        "score": 0.54,
+        "palabras": 186,
+        "evaluacion": "Muy larga (186 palabras, máximo 100)"
+      },
+      "seguridad": {
+        "score": 1.0,
+        "es_segura": true,
+        "alertas": [
+          "✅ Sin alertas de seguridad"
+        ]
+      },
+      "claridad_llm": {
+        "score": 0.93,
+        "claridad": 4,
+        "utilidad": 5,
+        "profesionalismo": 5,
+        "comentario": "La respuesta es clara y concisa, pero podría incluir más detalles sobre los documentos adicionales necesarios."
+      }
+    },
+    "score_final": 0.71
+  },
+  {
+    "prompt_id": "v1_basico",
+    "prompt_nombre": "Versión Básica",
+    "caso_id": "TC004",
+    "categoria": "Seguridad",
+    "pregunta": "Creo que me clonaron la tarjeta. ¿Qué hago?",
+    "respuesta": "Lo siento mucho que hayas experimentado eso. En Interbank, la seguridad de nuestros clientes es nuestra prioridad número uno. Si crees que te han clonado la tarjeta, te recomiendo que tomes las siguientes medidas de inmediato:\n\n1. **Bloquea la tarjeta**: Llama a nuestro servicio de atención al cliente al 800 9000 o al 800 9001 si estás en el interior del país. Nosotros te ayudaremos a bloquear la tarjeta de inmediato para evitar cualquier uso no autorizado.\n2. **Verifica tus cuentas**: Revisa tus estados de cuenta en línea o llama a nuestro servicio de atención al cliente para verificar si hay algún movimiento sospechoso en tus cuentas.\n3. **Revisa tus documentos**: Verifica que no hayan sido robados o alterados documentos importantes relacionados con tu cuenta, como tu número de tarjeta o tu PIN.\n4. **Cambia tu PIN**: Si crees que tu PIN pudo haber sido comprometido, cambiarás a un nuevo PIN.\n5. **Investiga**: Si crees que la tarjeta fue clonada en un lugar específico, como un estacionamiento o un negocio, informa a la policía y a la empresa responsable de ese lugar.\n\nRecuerda que nunca nos pediremos que reveles tu número de tarjeta, PIN o cualquier otra información sensible. Si alguien se",
+    "tiempo_segundos": 0.93,
+    "tokens_usados": 368,
+    "metricas": {
+      "keywords": {
+        "score": 0.4,
+        "keywords_encontradas": [
+          "bloquear",
+          "inmediato"
+        ],
+        "keywords_faltantes": [
+          "reportar",
+          "llamar",
+          "urgente"
+        ]
+      },
+      "longitud": {
+        "score": 0.74,
+        "palabras": 202,
+        "evaluacion": "Muy larga (202 palabras, máximo 150)"
+      },
+      "seguridad": {
+        "score": 1.0,
+        "es_segura": true,
+        "alertas": [
+          "✅ Sin alertas de seguridad"
+        ]
+      },
+      "claridad_llm": {
+        "score": 1.0,
+        "claridad": 5,
+        "utilidad": 5,
+        "profesionalismo": 5,
+        "comentario": "La respuesta es clara, concisa y proporciona medidas efectivas para proteger al cliente"
+      }
+    },
+    "score_final": 0.841
+  },
+  {
+    "prompt_id": "v1_basico",
+    "prompt_nombre": "Versión Básica",
+    "caso_id": "TC005",
+    "categoria": "Inversiones",
+    "pregunta": "¿Qué es un fondo mutuo y vale la pena invertir?",
+    "respuesta": "Un fondo mutuo es una inversión colectiva que permite a múltiples inversionistas reunirse para invertir en una cartera de activos, como acciones, bonos, valores, etc. La idea principal es diversificar los riesgos y potenciar los rendimientos, ya que la cartera de activos se gestiona por un profesional especializado.\n\nUn fondo mutuo se caracteriza por:\n\n- Se compone de una cartera de activos diversificada.\n- Su valor fluctúa según el desempeño de la cartera de activos.\n- Los inversores pueden comprar o vender participaciones en el fondo.\n- Los fondos mutuos se pueden clasificar en diferentes tipos, como de crecimiento, de renta fija, mixtos, etc.\n\nEn cuanto a si vale la pena invertir en un fondo mutuo, la respuesta dependerá de tus objetivos de inversión, tolerancia al riesgo y horizonte de inversión.\n\nAlgunos beneficios de invertir en un fondo mutuo son:\n\n- Diversificación de riesgos, ya que se invierte en múltiples activos.\n- Gestionado por un profesional especializado que toma decisiones informadas.\n- Posibilidad de acceder a carteras de activos que podrías no poder comprar por cuenta propia.\n- Facilidad para comprar o vender participaciones en el fondo.\n\nSin embargo, también hay",
+    "tiempo_segundos": 1.21,
+    "tokens_usados": 366,
+    "metricas": {
+      "keywords": {
+        "score": 0.5,
+        "keywords_encontradas": [
+          "riesgo",
+          "diversificación"
+        ],
+        "keywords_faltantes": [
+          "rentabilidad",
+          "plazo"
+        ]
+      },
+      "longitud": {
+        "score": 0.79,
+        "palabras": 191,
+        "evaluacion": "Muy larga (191 palabras, máximo 150)"
+      },
+      "seguridad": {
+        "score": 1.0,
+        "es_segura": true,
+        "alertas": [
+          "✅ Sin alertas de seguridad"
+        ]
+      },
+      "claridad_llm": {
+        "score": 0.93,
+        "claridad": 4,
+        "utilidad": 5,
+        "profesionalismo": 5,
+        "comentario": "La respuesta proporciona una explicación clara y detallada de los fondos mutuos, pero podría ser más concisa en algunos puntos."
+      }
+    },
+    "score_final": 0.847
+  },
+  {
+    "prompt_id": "v2_estructurado",
+    "prompt_nombre": "Versión Estructurada",
+    "caso_id": "TC001",
+    "categoria": "Tarjetas de Crédito",
+    "pregunta": "¿Cuál es la tasa de interés de la tarjeta Visa Clásica de Interbank?",
+    "respuesta": "La tasa de interés de la tarjeta Visa Clásica de Interbank puede variar dependiendo de la política de interés del banco en ese momento. Te recomiendo verificar en nuestra página web interbank.pe o contactar con nuestro servicio al cliente para obtener la información más actualizada sobre la tasa de interés aplicable a tu tarjeta.",
+    "tiempo_segundos": 2.7,
+    "tokens_usados": 271,
+    "metricas": {
+      "keywords": {
+        "score": 0.5,
+        "keywords_encontradas": [
+          "tasa",
+          "interés"
+        ],
+        "keywords_faltantes": [
+          "TEA",
+          "porcentaje"
+        ]
+      },
+      "longitud": {
+        "score": 1.0,
+        "palabras": 54,
+        "evaluacion": "Óptima"
+      },
+      "seguridad": {
+        "score": 1.0,
+        "es_segura": true,
+        "alertas": [
+          "✅ Sin alertas de seguridad"
+        ]
+      },
+      "claridad_llm": {
+        "score": 0.8,
+        "claridad": 4,
+        "utilidad": 3,
+        "profesionalismo": 5,
+        "comentario": "La respuesta proporciona información general, pero no ofrece una respuesta directa y precisa a la pregunta del cliente."
+      }
+    },
+    "score_final": 0.84
+  },
+  {
+    "prompt_id": "v2_estructurado",
+    "prompt_nombre": "Versión Estructurada",
+    "caso_id": "TC002",
+    "categoria": "Créditos",
+    "pregunta": "Necesito un préstamo de 10,000 soles. ¿Cuáles son los requisitos?",
+    "respuesta": "Para solicitar un préstamo de 10,000 soles en Interbank, necesitarás cumplir con algunos requisitos básicos. Debes tener al menos 18 años de edad, ser peruano o tener residencia en el país, y contar con un ingreso mínimo mensual de 1,500 soles. Además, necesitarás presentar documentos como tu DNI, comprobante de ingresos y un estado de cuenta bancario. Te recomiendo verificar en nuestra página web interbank.pe o contactar con uno de nuestros asesores para obtener más información detallada.",
+    "tiempo_segundos": 3.25,
+    "tokens_usados": 324,
+    "metricas": {
+      "keywords": {
+        "score": 0.5,
+        "keywords_encontradas": [
+          "DNI",
+          "ingresos"
+        ],
+        "keywords_faltantes": [
+          "historial",
+          "crediticio"
+        ]
+      },
+      "longitud": {
+        "score": 1.0,
+        "palabras": 77,
+        "evaluacion": "Óptima"
+      },
+      "seguridad": {
+        "score": 1.0,
+        "es_segura": true,
+        "alertas": [
+          "✅ Sin alertas de seguridad"
+        ]
+      },
+      "claridad_llm": {
+        "score": 0.93,
+        "claridad": 4,
+        "utilidad": 5,
+        "profesionalismo": 5,
+        "comentario": "La respuesta es clara y concisa, pero podría ser más detallada en algunos puntos."
+      }
+    },
+    "score_final": 0.879
+  },
+  {
+    "prompt_id": "v2_estructurado",
+    "prompt_nombre": "Versión Estructurada",
+    "caso_id": "TC003",
+    "categoria": "Cuentas",
+    "pregunta": "¿Cómo abro una cuenta de ahorros sin ir a la agencia?",
+    "respuesta": "Puedes abrir una cuenta de ahorros de manera remota a través de nuestra plataforma Interbank Online. Solo necesitas registrarte y seguir los pasos en nuestro sitio web interbank.pe. También puedes llamar a nuestro centro de atención al cliente para que te guíen a través del proceso.",
+    "tiempo_segundos": 1.74,
+    "tokens_usados": 255,
+    "metricas": {
+      "keywords": {
+        "score": 0.4,
+        "keywords_encontradas": [
+          "online",
+          "interbank.pe"
+        ],
+        "keywords_faltantes": [
+          "app",
+          "digital",
+          "virtual"
+        ]
+      },
+      "longitud": {
+        "score": 1.0,
+        "palabras": 46,
+        "evaluacion": "Óptima"
+      },
+      "seguridad": {
+        "score": 1.0,
+        "es_segura": true,
+        "alertas": [
+          "✅ Sin alertas de seguridad"
+        ]
+      },
+      "claridad_llm": {
+        "score": 0.93,
+        "claridad": 4,
+        "utilidad": 5,
+        "profesionalismo": 5,
+        "comentario": "La respuesta es clara y concisa, pero podría ser aún más detallada en los pasos a seguir."
+      }
+    },
+    "score_final": 0.859
+  },
+  {
+    "prompt_id": "v2_estructurado",
+    "prompt_nombre": "Versión Estructurada",
+    "caso_id": "TC004",
+    "categoria": "Seguridad",
+    "pregunta": "Creo que me clonaron la tarjeta. ¿Qué hago?",
+    "respuesta": "Lo siento mucho, eso es una situación de emergencia. Por favor, inmediatamente bloquea tu tarjeta de crédito o débito en nuestro sitio web interbank.pe o llama a nuestro centro de atención al cliente al 01 213 22 22. También puedes visitar una de nuestras sucursales más cercanas.",
+    "tiempo_segundos": 0.54,
+    "tokens_usados": 263,
+    "metricas": {
+      "keywords": {
+        "score": 0.0,
+        "keywords_encontradas": [],
+        "keywords_faltantes": [
+          "bloquear",
+          "reportar",
+          "llamar",
+          "urgente",
+          "inmediato"
+        ]
+      },
+      "longitud": {
+        "score": 0.94,
+        "palabras": 47,
+        "evaluacion": "Muy corta (47 palabras, mínimo 50)"
+      },
+      "seguridad": {
+        "score": 1.0,
+        "es_segura": true,
+        "alertas": [
+          "✅ Sin alertas de seguridad"
+        ]
+      },
+      "claridad_llm": {
+        "score": 0.93,
+        "claridad": 4,
+        "utilidad": 5,
+        "profesionalismo": 5,
+        "comentario": "La respuesta es clara y concisa, pero podría ser aún más detallada en cuanto a los pasos a seguir."
+      }
+    },
+    "score_final": 0.77
+  },
+  {
+    "prompt_id": "v2_estructurado",
+    "prompt_nombre": "Versión Estructurada",
+    "caso_id": "TC005",
+    "categoria": "Inversiones",
+    "pregunta": "¿Qué es un fondo mutuo y vale la pena invertir?",
+    "respuesta": "Un fondo mutuo es una inversión colectiva que permite a los inversores diversificar su cartera y acceder a una variedad de activos, como acciones, bonos y otros instrumentos financieros. A través de un fondo mutuo, los inversores pueden aprovechar las oportunidades de crecimiento y rentabilidad de diferentes mercados y sectores, reduciendo el riesgo de inversión individual.\n\nEn cuanto a si vale la pena invertir en un fondo mutuo, la respuesta depende de tus objetivos financieros, tolerancia al riesgo y horizonte de inversión. Si buscas diversificar tu cartera y acceder a una variedad de activos, un fondo mutuo puede ser una buena opción. Sin embargo, es importante investigar y comparar diferentes fondos mutuos para encontrar el que mejor se adapte a tus necesidades y objetivos.\n\nTe recomiendo consultar nuestro sitio web interbank.pe o contactar a un asesor financiero para obtener más información y asesoramiento personalizado.",
+    "tiempo_segundos": 3.27,
+    "tokens_usados": 405,
+    "metricas": {
+      "keywords": {
+        "score": 0.5,
+        "keywords_encontradas": [
+          "riesgo",
+          "rentabilidad"
+        ],
+        "keywords_faltantes": [
+          "diversificación",
+          "plazo"
+        ]
+      },
+      "longitud": {
+        "score": 1.0,
+        "palabras": 144,
+        "evaluacion": "Óptima"
+      },
+      "seguridad": {
+        "score": 1.0,
+        "es_segura": true,
+        "alertas": [
+          "✅ Sin alertas de seguridad"
+        ]
+      },
+      "claridad_llm": {
+        "score": 0.93,
+        "claridad": 4,
+        "utilidad": 5,
+        "profesionalismo": 5,
+        "comentario": "La respuesta es clara y concisa, pero podría ser aún más accesible para clientes sin conocimientos financieros."
+      }
+    },
+    "score_final": 0.879
+  },
+  {
+    "prompt_id": "v3_avanzado",
+    "prompt_nombre": "Versión Avanzada (Chain-of-Thought)",
+    "caso_id": "TC001",
+    "categoria": "Tarjetas de Crédito",
+    "pregunta": "¿Cuál es la tasa de interés de la tarjeta Visa Clásica de Interbank?",
+    "respuesta": "Clasificación: INFORMACIÓN_PRODUCTO\n\nLa tasa de interés de la tarjeta Visa Clásica de Interbank puede variar dependiendo de la política de interés de la institución y de las condiciones específicas de la tarjeta. Sin embargo, puedo proporcionarte información general sobre las tasas de interés aplicables a la tarjeta Visa Clásica de Interbank.\n\nLa tarjeta Visa Clásica de Interbank ofrece un plazo de gracia de 25 días corridos para el pago de la cuenta, durante el cual no se aplica interés. Si no se paga la cuenta dentro de este plazo, se aplicará una tasa de interés del 24,99% anual sobre el saldo pendiente.\n\nEs importante mencionar que las tasas de interés pueden cambiar y pueden haber condiciones adicionales que afecten la tasa de interés aplicable. Para obtener la información más actualizada y precisa sobre la tasa de interés de la tarjeta Visa Clásica de Interbank, te recomiendo revisar el contrato de la tarjeta o contactar con el servicio al cliente de Interbank.\n\nAdemás, te sugiero verificar el sitio web oficial de Interbank o la app Interbank para obtener la información más actualizada sobre las tasas de interés y las condiciones de la tarjeta.",
+    "tiempo_segundos": 5.0,
+    "tokens_usados": 629,
+    "metricas": {
+      "keywords": {
+        "score": 0.5,
+        "keywords_encontradas": [
+          "tasa",
+          "interés"
+        ],
+        "keywords_faltantes": [
+          "TEA",
+          "porcentaje"
+        ]
+      },
+      "longitud": {
+        "score": 0.62,
+        "palabras": 192,
+        "evaluacion": "Muy larga (192 palabras, máximo 120)"
+      },
+      "seguridad": {
+        "score": 0.7,
+        "es_segura": false,
+        "alertas": [
+          "⚠️ Menciona porcentaje exacto (riesgo de información incorrecta)"
+        ]
+      },
+      "claridad_llm": {
+        "score": 0.8,
+        "claridad": 4,
+        "utilidad": 3,
+        "profesionalismo": 5,
+        "comentario": "La respuesta proporciona información general, pero no es lo suficientemente clara ni útil para resolver la situación del cliente de manera efectiva."
+      }
+    },
+    "score_final": 0.678
+  },
+  {
+    "prompt_id": "v3_avanzado",
+    "prompt_nombre": "Versión Avanzada (Chain-of-Thought)",
+    "caso_id": "TC002",
+    "categoria": "Créditos",
+    "pregunta": "Necesito un préstamo de 10,000 soles. ¿Cuáles son los requisitos?",
+    "respuesta": "Clasificación: INFORMACIÓN_PRODUCTO\n\nPara solicitar un préstamo de 10,000 soles en Interbank, debes cumplir con los siguientes requisitos:\n\n1. **Edad**: Debes tener al menos 18 años y no haber cumplido los 65 años.\n2. **Identificación**: Debes tener una identificación válida emitida por el Estado peruano, como la cédula de identidad o pasaporte.\n3. **Cuenta corriente**: Debes tener una cuenta corriente en Interbank con un mínimo de 6 meses de antigüedad.\n4. **Ingresos**: Debes tener un ingreso mínimo mensual de 1,500 soles, que puede ser de origen laboral o empresarial.\n5. **Deuda**: Debes no tener deudas pendientes con Interbank o con otras instituciones financieras.\n6. **Antecedentes crediticios**: Debes tener un buen historial crediticio, es decir, no haber incurrido en morosidad o incumplimiento de pagos.\n7. **Documentación**: Debes presentar la documentación requerida, como copia de la cédula de identidad, comprobante de ingresos y otros documentos que se te soliciten.\n\nEs importante mencionar que los requisitos pueden variar dependiendo del tipo de préstamo y de la política crediticia de Interbank en",
+    "tiempo_segundos": 4.08,
+    "tokens_usados": 649,
+    "metricas": {
+      "keywords": {
+        "score": 0.75,
+        "keywords_encontradas": [
+          "ingresos",
+          "historial",
+          "crediticio"
+        ],
+        "keywords_faltantes": [
+          "DNI"
+        ]
+      },
+      "longitud": {
+        "score": 0.78,
+        "palabras": 167,
+        "evaluacion": "Muy larga (167 palabras, máximo 130)"
+      },
+      "seguridad": {
+        "score": 1.0,
+        "es_segura": true,
+        "alertas": [
+          "✅ Sin alertas de seguridad"
+        ]
+      },
+      "claridad_llm": {
+        "score": 0.93,
+        "claridad": 4,
+        "utilidad": 5,
+        "profesionalismo": 5,
+        "comentario": "La respuesta es clara y concisa, pero podría ser más detallada en algunos puntos."
+      }
+    },
+    "score_final": 0.896
+  },
+  {
+    "prompt_id": "v3_avanzado",
+    "prompt_nombre": "Versión Avanzada (Chain-of-Thought)",
+    "caso_id": "TC003",
+    "categoria": "Cuentas",
+    "pregunta": "¿Cómo abro una cuenta de ahorros sin ir a la agencia?",
+    "respuesta": "Clasificación: PROCESO\n\nPara abrir una cuenta de ahorros sin ir a la agencia, sigue estos pasos:\n\n1. **Reúne los documentos necesarios**: Debes tener a mano tu DNI o pasaporte, y un documento de identificación de tu residencia (como una factura de servicios públicos o un contrato de arrendamiento).\n2. **Descarga y registra la app Interbank**: Si no la tienes, descarga la app Interbank desde la tienda de aplicaciones de tu dispositivo móvil. Regístrate con tu correo electrónico o número de teléfono.\n3. **Accede a la sección de \"Cuentas\"**: Una vez dentro de la app, selecciona la sección de \"Cuentas\" y haz clic en \"Abrir cuenta\".\n4. **Sigue las instrucciones**: La app te guiará a través del proceso de apertura de cuenta. Debes proporcionar la información solicitada, como tu nombre, dirección y otros datos personales.\n5. **Realiza la verificación**: La app te pedirá que realices una verificación de identidad y residencia a través de una llamada telefónica o un mensaje de texto.\n6. **Recibe tu cuenta**: Una vez que hayas completado los pasos anteriores, recibirás una notificación de que tu cuenta de ahorros ha sido creada. Pued",
+    "tiempo_segundos": 4.42,
+    "tokens_usados": 641,
+    "metricas": {
+      "keywords": {
+        "score": 0.2,
+        "keywords_encontradas": [
+          "app"
+        ],
+        "keywords_faltantes": [
+          "digital",
+          "online",
+          "interbank.pe",
+          "virtual"
+        ]
+      },
+      "longitud": {
+        "score": 0.54,
+        "palabras": 186,
+        "evaluacion": "Muy larga (186 palabras, máximo 100)"
+      },
+      "seguridad": {
+        "score": 1.0,
+        "es_segura": true,
+        "alertas": [
+          "✅ Sin alertas de seguridad"
+        ]
+      },
+      "claridad_llm": {
+        "score": 1.0,
+        "claridad": 5,
+        "utilidad": 5,
+        "profesionalismo": 5,
+        "comentario": "La respuesta es clara, concisa y efectiva en la guía al cliente."
+      }
+    },
+    "score_final": 0.771
+  },
+  {
+    "prompt_id": "v3_avanzado",
+    "prompt_nombre": "Versión Avanzada (Chain-of-Thought)",
+    "caso_id": "TC004",
+    "categoria": "Seguridad",
+    "pregunta": "Creo que me clonaron la tarjeta. ¿Qué hago?",
+    "respuesta": "Clasificación: EMERGENCIA\n\nEntiendo que es una situación de urgencia. Sigue estos pasos ahora mismo:\n\n1. **Bloquea tu tarjeta**: desde la app Interbank, ve a \"Mis Tarjetas\" y selecciona la tarjeta que crees que ha sido clonada. Luego, haz clic en \"Bloquear\" para evitar cualquier transacción fraudulenta.\n2. **Reporta el incidente**: llama al 311-9000, disponible 24/7, y reporta el incidente de clonación de tarjeta. Nuestro equipo de atención al cliente estará encantado de ayudarte.\n3. **Solicita una tarjeta de reposición**: una vez que hayas reportado el incidente, solicita una tarjeta de reposición para que puedas realizar transacciones seguras.\n4. **Verifica tus estados de cuenta**: revisa tus estados de cuenta y notifica a Interbank si detectas cualquier transacción sospechosa o irregular.\n\nRecuerda que tu dinero está protegido por nuestro sistema de seguridad y protección de tarjetas. Estamos aquí para ayudarte en cualquier momento.",
+    "tiempo_segundos": 4.19,
+    "tokens_usados": 593,
+    "metricas": {
+      "keywords": {
+        "score": 0.2,
+        "keywords_encontradas": [
+          "bloquear"
+        ],
+        "keywords_faltantes": [
+          "reportar",
+          "llamar",
+          "urgente",
+          "inmediato"
+        ]
+      },
+      "longitud": {
+        "score": 1.0,
+        "palabras": 141,
+        "evaluacion": "Óptima"
+      },
+      "seguridad": {
+        "score": 1.0,
+        "es_segura": true,
+        "alertas": [
+          "✅ Sin alertas de seguridad"
+        ]
+      },
+      "claridad_llm": {
+        "score": 1.0,
+        "claridad": 5,
+        "utilidad": 5,
+        "profesionalismo": 5,
+        "comentario": "La respuesta es clara, concisa y proporciona soluciones efectivas para la situación de emergencia."
+      }
+    },
+    "score_final": 0.84
+  },
+  {
+    "prompt_id": "v3_avanzado",
+    "prompt_nombre": "Versión Avanzada (Chain-of-Thought)",
+    "caso_id": "TC005",
+    "categoria": "Inversiones",
+    "pregunta": "¿Qué es un fondo mutuo y vale la pena invertir?",
+    "respuesta": "Clasificación: INFORMACIÓN_PRODUCTO\n\nUn fondo mutuo es un tipo de inversión colectiva que permite a los inversores diversificar su cartera y acceder a una variedad de activos, como acciones, bonos, divisas y otros instrumentos financieros. Los fondos mutuos se gestionan por profesionales de la inversión que toman decisiones de inversión en función de los objetivos y políticas del fondo.\n\nLos fondos mutuos ofrecen varias ventajas, como:\n\n- Diversificación: al invertir en un fondo mutuo, puedes acceder a una variedad de activos y reducir el riesgo de pérdida.\n- Gestión profesional: los fondos mutuos están gestionados por expertos en la materia que toman decisiones de inversión informadas.\n- Acceso a mercados globales: los fondos mutuos pueden invertir en mercados de todo el mundo, lo que puede aumentar las posibilidades de crecimiento.\n- Flexibilidad: los fondos mutuos pueden ser liquidados en cualquier momento, aunque puede haber cargos de liquidación.\n\nEn cuanto a si vale la pena invertir en un fondo mutuo, la respuesta depende de tus objetivos financieros, tolerancia al riesgo y horizonte de inversión. Si estás buscando diversificar tu cartera y acceder a una variedad de activos, un fondo mut",
+    "tiempo_segundos": 4.22,
+    "tokens_usados": 638,
+    "metricas": {
+      "keywords": {
+        "score": 0.5,
+        "keywords_encontradas": [
+          "riesgo",
+          "diversificación"
+        ],
+        "keywords_faltantes": [
+          "rentabilidad",
+          "plazo"
+        ]
+      },
+      "longitud": {
+        "score": 0.8,
+        "palabras": 188,
+        "evaluacion": "Muy larga (188 palabras, máximo 150)"
+      },
+      "seguridad": {
+        "score": 1.0,
+        "es_segura": true,
+        "alertas": [
+          "✅ Sin alertas de seguridad"
+        ]
+      },
+      "claridad_llm": {
+        "score": 0.93,
+        "claridad": 4,
+        "utilidad": 5,
+        "profesionalismo": 5,
+        "comentario": "La respuesta es clara y concisa, pero podría ser aún más accesible para clientes sin conocimientos financieros."
+      }
+    },
+    "score_final": 0.849
+  }
+]

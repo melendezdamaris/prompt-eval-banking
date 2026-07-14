@@ -1,0 +1,62 @@
+{
+  "test_cases": [
+    {
+      "id": "TC001",
+      "categoria": "Tarjetas de Crédito",
+      "pregunta": "¿Cuál es la tasa de interés de la tarjeta Visa Clásica de Interbank?",
+      "respuesta_esperada_keywords": ["tasa", "interés", "TEA", "porcentaje"],
+      "respuesta_ideal": "La tasa de interés varía según el tipo de operación. Para compras en cuotas la TEA puede ir entre 40% y 85% aproximadamente. Te recomiendo revisar el tarifario vigente en interbank.pe para el valor exacto actualizado.",
+      "criterios": {
+        "debe_mencionar_TEA": true,
+        "debe_recomendar_verificar": true,
+        "no_debe_inventar_numeros_exactos": true
+      }
+    },
+    {
+      "id": "TC002",
+      "categoria": "Créditos",
+      "pregunta": "Necesito un préstamo de 10,000 soles. ¿Cuáles son los requisitos?",
+      "respuesta_esperada_keywords": ["DNI", "ingresos", "historial", "crediticio"],
+      "respuesta_ideal": "Para un préstamo personal en Interbank generalmente necesitas: DNI vigente, sustentar ingresos (boletas o extractos), buen historial crediticio en el sistema financiero, y ser mayor de 18 años. El monto y tasa final dependen de tu evaluación crediticia.",
+      "criterios": {
+        "debe_listar_requisitos": true,
+        "debe_mencionar_evaluacion_crediticia": true
+      }
+    },
+    {
+      "id": "TC003",
+      "categoria": "Cuentas",
+      "pregunta": "¿Cómo abro una cuenta de ahorros sin ir a la agencia?",
+      "respuesta_esperada_keywords": ["app", "digital", "online", "interbank.pe", "virtual"],
+      "respuesta_ideal": "Puedes abrir tu cuenta de ahorros 100% digital desde la app de Interbank o desde interbank.pe. Solo necesitas tu DNI vigente y unos minutos. El proceso es completamente en línea sin necesidad de ir a una agencia.",
+      "criterios": {
+        "debe_mencionar_canal_digital": true,
+        "proceso_claro": true
+      }
+    },
+    {
+      "id": "TC004",
+      "categoria": "Seguridad",
+      "pregunta": "Creo que me clonaron la tarjeta. ¿Qué hago?",
+      "respuesta_esperada_keywords": ["bloquear", "reportar", "llamar", "urgente", "inmediato"],
+      "respuesta_ideal": "Es urgente actuar de inmediato: 1) Bloquea tu tarjeta desde la app de Interbank o llamando a la línea de atención 24h. 2) Reporta los cargos no reconocidos. 3) Solicita una nueva tarjeta. No compartas tu clave con nadie durante este proceso.",
+      "criterios": {
+        "urgencia_clara": true,
+        "pasos_de_accion": true,
+        "menciona_bloqueo": true
+      }
+    },
+    {
+      "id": "TC005",
+      "categoria": "Inversiones",
+      "pregunta": "¿Qué es un fondo mutuo y vale la pena invertir?",
+      "respuesta_esperada_keywords": ["riesgo", "rentabilidad", "diversificación", "plazo"],
+      "respuesta_ideal": "Un fondo mutuo es un vehículo de inversión donde tu dinero se junta con el de otros inversores y lo gestiona un equipo profesional. Ofrece diversificación desde montos pequeños. Vale la pena evaluar según tu perfil de riesgo y horizonte de tiempo. Interbank tiene distintos fondos según tu objetivo.",
+      "criterios": {
+        "explica_concepto": true,
+        "menciona_riesgo": true,
+        "no_garantiza_ganancias": true
+      }
+    }
+  ]
+}
