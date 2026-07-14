@@ -1,4 +1,4 @@
-# 🏦 Prompt Evaluation Framework — Banking AI Copilot
+# 🏦 Prompt Evaluation Framework: Banking AI Copilot
 
 > An automated framework to evaluate, compare, and optimize LLM prompt 
 > versions for a banking virtual assistant. Built to demonstrate how 
@@ -25,14 +25,8 @@ the comparison objective and reproducible.
 ---
 
 ## 🏗️ Architecture
-┌─────────────────────────────────────────────────────┐
-│                                                     │
-│   PROMPTS          LLM API          EVALUATOR       │
-│  (3 versions)  →  (Groq/Llama)  →  (4 metrics)      │
-│                                         ↓           │
-│              REPORT (HTML dashboard)                │
-│                                                     │
-└─────────────────────────────────────────────────────┘
+
+![Architecture Diagram](docs/architecture.png)
 
 **Prompt versions compared:**
 - `v1_basico` — Simple prompt, no structure
@@ -139,22 +133,8 @@ start reporte_evaluacion.html # Windows
 ---
 
 ## 📁 Project Structure
-prompt-eval-banking/
-│
-├── config/
-│   └── test_cases.json        # 5 banking test scenarios
-│
-├── prompts/
-│   └── prompts.json           # 3 prompt versions to compare
-│
-├── evaluator/
-│   └── metrics.py             # Core evaluation logic
-│                              # (guardrails, LLM-as-Judge,
-│                              #  keywords, length)
-├── main.py                    # Orchestrator — runs all evaluations
-├── report.py                  # Generates HTML dashboard
-├── reporte_evaluacion.html    # 📊 Output: visual report
-└── resultados_evaluacion.json # Output: raw results data
+
+![Project Structure](docs/structure.png)
 
 ---
 
