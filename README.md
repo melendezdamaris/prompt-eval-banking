@@ -5,7 +5,7 @@
 > prompt engineering decisions can be measured with objective, 
 > business-aligned metrics.
 
-**Live Report →** [View Evaluation Report](https://melendezdamaris.github.io/prompt-eval-banking/reporte_evaluacion.html)
+**Live Report →** [View Evaluation Report](https://melendezdam.github.io/prompt-eval-banking/reporte_evaluacion.html)
 
 ---
 
@@ -102,7 +102,7 @@ Anthropic and Google evaluate their systems at scale.
 
 ```bash
 # Clone the repository
-git clone https://github.com/melendezdamaris/prompt-eval-banking.git
+git clone https://github.com/melendezdam/prompt-eval-banking.git
 cd prompt-eval-banking
 
 # Create virtual environment
@@ -177,8 +177,3 @@ AI & ML Engineer · Lima, Perú 🇵🇪
 > *Built as part of my AI engineering portfolio, applying prompt 
 > engineering and LLM evaluation techniques to real banking use cases.*
 
----
-
-## 📄 License
-
-MIT License — feel free to use, adapt, and build on this framework.
